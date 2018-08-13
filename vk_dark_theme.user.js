@@ -8,8 +8,8 @@
 // @include      https://vk.com/*
 // @include      http://vk.com/*
 // @run-at       document-start
-// @downloadURL  https://raw.githubusercontent.com/bogdanbelous/VK-Dark-Theme/master/vk_dark_theme.js
-// @updateURL    https://raw.githubusercontent.com/bogdanbelous/VK-Dark-Theme/master/vk_dark_theme.js
+// @downloadURL  https://raw.githubusercontent.com/bogdanbelous/VK-Dark-Theme/master/vk_dark_theme.user.js
+// @updateURL    https://raw.githubusercontent.com/bogdanbelous/VK-Dark-Theme/master/vk_dark_theme.meta.js
 // ==/UserScript==
 
 function addGlobalStyle(css) {
