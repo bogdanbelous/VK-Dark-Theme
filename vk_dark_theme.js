@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         VK Dark Theme
 // @version      0.1
-// @author       bogdanbelous
 // @homepage     https://github.com/bogdanbelous/VK-Dark-Theme/
 // @updateURL    https://raw.githubusercontent.com/bogdanbelous/VK-Dark-Theme/master/vk_dark_theme.js
 // @include      https://vk.com/*
