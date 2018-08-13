@@ -1,4 +1,4 @@
-# VK-Dark-Theme
+# VK Dark Theme
 
 This is my little modification of other code
 
