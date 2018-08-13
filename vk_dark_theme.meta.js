@@ -4,7 +4,7 @@
 // @author       bogdanbelous
 // @namespace    https://github.com/bogdanbelous/VK-Dark-Theme/blob/master/README.md
 // @description  :)
-// @homepage     https://github.com/bogdanbelous/VK-Dark-Theme/
+// @homepage     https://github.com/bogdanbelous/VK-Dark-Theme
 // @include      https://vk.com/*
 // @include      http://vk.com/*
 // @run-at       document-start
