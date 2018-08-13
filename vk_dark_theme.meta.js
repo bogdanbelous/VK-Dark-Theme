@@ -2,7 +2,6 @@
 // @name         VK Dark Theme
 // @version      0.1
 // @author       bogdanbelous
-// @namespace    https://github.com/bogdanbelous/VK-Dark-Theme/blob/master/README.md
 // @description  :)
 // @homepage     https://github.com/bogdanbelous/VK-Dark-Theme
 // @include      https://vk.com/*
