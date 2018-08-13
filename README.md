@@ -1,6 +1,6 @@
 # VK Dark Theme
 
-This is my modification of [this code](https://userstyles.org/styles/127431/newvk-dark-theme)
+This is my modification of [this theme](https://userstyles.org/styles/127431/newvk-dark-theme)
 
 # Installation
 1. Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Chrome) | [Tampermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/) (Opera) | [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/) (Firefox).
