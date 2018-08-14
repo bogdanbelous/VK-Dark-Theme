@@ -5121,7 +5121,7 @@ a.group_app_button_multi {
 .page_actions_item:hover:not(.grey_hoverable) {
   background-color: #4B4E51 !important;
 }
-.media_voting, .media_voting_option {
+/*.media_voting, .media_voting_option {
   box-shadow: inset 0 0 0 2px #505456 !important;
   background-color: #373b3e !important;
 }
@@ -5148,20 +5148,24 @@ a.group_app_button_multi {
 }
 .media_voting_option_wrap.media_voting_option_selected .media_voting_option_text:after {
   opacity: 1 !important;
+}*/
+
+/* added begin */
+
+/* search top */
+input.text.ts_input {
+  background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat!important;
+  background-position: left 8px!important;
+  border-color: #224b7a !important;
 }
 
-/*added begin*/
-input.text.ts_input {
-    background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat!important;
-    background-position: left 8px!important;
-    border-color: #224b7a !important;
-}
+/* forward message */
 .ListItem--border:before {
   background: #bdbdbd !important;
 }
 .ListItem--active, .ListItem--can-be-hovered.ListItem--selectable:hover {
-    background: #373b3e !important;
-    border-color: #373b3e !important; 
+  background: #373b3e !important;
+  border-color: #373b3e !important; 
 }
 .Entity__title {
   color: #E0E0E0 !important;
@@ -5169,7 +5173,84 @@ input.text.ts_input {
 .MessageForward__content {
   background: #373b3e !important;
 }
+
+/* support agent */
 .tickets_reply_row {
   background-color: #373b3e !important;
+}
+
+/* group information*/
+.ui_tab_default .ui_tab_plain { 
+  color: #d0cbcb !important; 
+}
+
+/* group address*/
+.wk_address_content .addresses_header {
+  background-color: #5b88bd !important;
+  border-bottom: 1px solid #484B4E !important;
+}
+.addresses_title {
+  color: #fff !important;
+}
+.box_x_button.box_x_tabs {
+  background: url(https://i.imgur.com/G6HaFs7.png) no-repeat 12px 21px !important;
+}
+
+/* group widget text*/
+.app_widget_tiles_title {
+  color: #fff !important;
+}
+.app_widget_text_content {
+  color: #fff !important;
+}
+
+/* group widget goods*/
+.page_market_item_title {
+  color: #fff !important;
+}
+
+/* group apps */
+.apps_group_catalog_promo_header {
+  color: #fff !important;
+}
+.apps_group_catalog_header_desc_text {
+  color: #fff !important;
+}
+.group_settings_advice_header {
+  color: #E0E0E0 !important
+}
+
+/* group apps catalog */
+.apps_group_catalog_header .apps_group_catalog_header_desc.from_page .apps_group_catalog_header_desc_link {
+  color: #fff !important;
+}
+.ui_tab, .ui_tabs .ui_tab {
+  color: #E0E0E0 !important;
+}
+
+/* group apps install */
+ .group_apps_list_row_info_app_name {
+  color: #E0E0E0 !important;
+}
+.group_apps_edit {
+  background: #373b3e !important;
+}
+
+/* group sending messages */
+.apps_name {
+  color: #E0E0E0 !important;
+}
+.apps_header {
+  background-color: #373b3e !important;
+}
+
+/* empty music album */
+.audio_pl_snippet .audio_pl_snippet__cover {background: url(https://svgur.com/i/7rx.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% !important;
+  background-color: #282b2f !important;
+}
+.audio_pl_snippet .audio_pl_snippet__empty_list:before {
+  background-image: url(https://svgur.com/i/7rx.svg) !important;
 }
 /*added end*/
