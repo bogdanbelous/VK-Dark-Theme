@@ -1,3 +1,5 @@
+/* version 0.1.2 */
+
 body {
   background: #282B2F !important;
   color: #E0E0E0 !important;
@@ -75,7 +77,7 @@ a {
   background: #373B3E !important;
 }
 .fakeinput, div[contenteditable=true], input.big_text, input.dark, input.search, input.text, textarea {
-  background: #373B3E !important;
+  background: #373B3E;
 }
 .im-page .im-page--history-new-bar:after, .im-page .im-page--history-new-bar:before {
   background: #f66 !important;
@@ -5152,39 +5154,54 @@ a.group_app_button_multi {
 
 /* added begin */
 
-/* search top */
+/* шапка-поиск */
 input.text.ts_input {
   background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat!important;
   background-position: left 8px!important;
   border-color: #224b7a !important;
 }
 
-/* forward message */
-.ListItem--border:before {
-  background: #bdbdbd !important;
-}
+/* пересылка сообщений */
 .ListItem--active, .ListItem--can-be-hovered.ListItem--selectable:hover {
   background: #373b3e !important;
   border-color: #373b3e !important; 
 }
-.Entity__title {
-  color: #E0E0E0 !important;
-}
 .MessageForward__content {
   background: #373b3e !important;
 }
+.Entity__title { 
+color: #d0cbcb !important; 
+} 
+.ListItem--border:before { 
+background: #484b4e !important; 
+} 
+input.BlockSearchInput { 
+border-bottom: 1px solid #807e7e !important; 
+} 
+.MessageForward__results { 
+background-color: #373b3e !important; 
+}
+.Avatar--online.Avatar--mobile:after { 
+background-color: #373b3e !important; 
+} 
+.Avatar--online:after { 
+border-color: #373b3e !important; 
+}
 
-/* support agent */
+/* агент поддержки */
 .tickets_reply_row {
   background-color: #373b3e !important;
 }
 
-/* group information*/
-.ui_tab_default .ui_tab_plain { 
-  color: #d0cbcb !important; 
+/* новый адресс группы */
+.group_edit_address_form {
+  background: #373B3E !important;
+}
+.page_add_place_box .label {
+  color: #e0e0e0 !important;
 }
 
-/* group address*/
+/* адресс группы */
 .wk_address_content .addresses_header {
   background-color: #5b88bd !important;
   border-bottom: 1px solid #484B4E !important;
@@ -5195,8 +5212,25 @@ input.text.ts_input {
 .box_x_button.box_x_tabs {
   background: url(https://i.imgur.com/G6HaFs7.png) no-repeat 12px 21px !important;
 }
+.address_time_status_cur.status_close {
+  color: #f66 !important;
+}
+.address_time_status_cur_time {
+  color: #e0e0e0 !important;
+}
+.address_timetable_one_day {
+  color: #e0e0e0 !important;
+}
 
-/* group widget text*/
+/* загрузить фото обложку группы */
+.page_load_photo {
+  color: #282B2F !important;
+}
+.box_title_wrap.box_grey .box_x_button{
+  background: url(https://i.imgur.com/G6HaFs7.png) no-repeat 12px 21px !important;
+}
+
+/* текст виджета группы */
 .app_widget_tiles_title {
   color: #fff !important;
 }
@@ -5204,12 +5238,12 @@ input.text.ts_input {
   color: #fff !important;
 }
 
-/* group widget goods*/
+/* товары группы */
 .page_market_item_title {
   color: #fff !important;
 }
 
-/* group apps */
+/* настройки приложения группы */
 .apps_group_catalog_promo_header {
   color: #fff !important;
 }
@@ -5220,7 +5254,7 @@ input.text.ts_input {
   color: #E0E0E0 !important
 }
 
-/* group apps catalog */
+/* каталог приложений группы */
 .apps_group_catalog_header .apps_group_catalog_header_desc.from_page .apps_group_catalog_header_desc_link {
   color: #fff !important;
 }
@@ -5228,15 +5262,34 @@ input.text.ts_input {
   color: #E0E0E0 !important;
 }
 
-/* group apps install */
+/* установка приложений группы */
  .group_apps_list_row_info_app_name {
   color: #E0E0E0 !important;
 }
 .group_apps_edit {
   background: #373b3e !important;
 }
+.group_apps_list_row_drag_wrapper {
+  background: #373b3e !important;
+}
+.group_apps_list_row_info_field.group_apps_list_row_info_app_name {
+  color :#E0E0E0 !important;
+}
+.group_apps_list_row {
+  border-bottom: 1px solid #484B4E !important;
+}
+.group_apps_edit {
+ border-bottom: 1px solid #484B4E !important;
+  border-top: 1px solid #484B4E !important;
+}
+.apps_group_catalog_header {
+  border-bottom: 1px solid #484B4E !important;
+}
+.apps_catalog_row {
+  border-bottom: 1px solid #484B4E !important;
+}
 
-/* group sending messages */
+/* рассылки сообщений группы */
 .apps_name {
   color: #E0E0E0 !important;
 }
@@ -5244,8 +5297,8 @@ input.text.ts_input {
   background-color: #373b3e !important;
 }
 
-/* empty music album */
-.audio_pl_snippet .audio_pl_snippet__cover {background: url(https://svgur.com/i/7rx.svg) !important;
+/* обложка пустого аудио альбома */
+.audio_pl_snippet .audio_pl_snippet__cover {background: url(https://svgur.com/i/7rx.svg);
   background-repeat: no-repeat !important;
   background-position: 50% !important;
   background-color: #282b2f !important;
@@ -5253,4 +5306,151 @@ input.text.ts_input {
 .audio_pl_snippet .audio_pl_snippet__empty_list:before {
   background-image: url(https://svgur.com/i/7rx.svg) !important;
 }
-/*added end*/
+
+/* информация беседы (чата) */
+.ChatSettingsInfo__meta {
+  color: #E0E0E0 !important;
+}
+.Tabs__item>* {
+  color: #E0E0E0 !important;
+}
+.Tabs__item--active>* {
+  color: #fff !important;
+}
+.ChatSettingsInvitationLink {
+  background: #373b3e !important;
+}
+.ChatSettingsInvitationLink__input {
+  border: 1px solid #807e7e !important;
+}
+.Select__control {
+  color: #d0cbcb !important;
+}
+.Button--tertiary {
+  background-color: #494d50 !important;
+  color: #D2D2D2 !important
+}
+.SubmitArea {
+  border-top: 1px solid #484B4E !important;
+  background: #373b3e !important;
+}
+.Select--opened .Select__control {
+  border-color: #484B4E !important;
+  background: #484B4E !important;
+}
+.Select__menu {
+  background: #373b3e !important;
+  border-color: #484B4E !important;
+}
+.Select__option {
+  color: #d0cbcb !important;
+}
+.Select__option:hover {
+  background: #484B4E !important;
+}
+.Dropdown__in {
+  color: #d0cbcb !important;
+  background: #373b3e !important;
+  border-color: #484B4E !important;
+}
+.Dropdown__item:hover {
+  background: #484B4E !important;
+}
+.ChatSettingsMembersWidget__search {
+  background: #373b3e !important;
+  color: #fff !important;
+}
+.ChatSettingsMembersWidget__header {
+  border-bottom-color: #484b4e !important;
+}
+.ChatSettings__leave {
+  color: #f66 !important
+}
+.ChatSettingsMembers {
+  background: #373b3e !important;
+}
+.MultiSelect__search {
+  background: #373b3e !important;
+  border-bottom-color: #484b4e !important;
+}
+
+/* vk.com/print */
+.print_header_title {
+  color: #fff !important;
+}
+.print_disabling_overlay {
+  background: #fff3 !important;
+}
+
+/* уведомление о addblock */
+.error{
+  background: #ffefe921 url(/images/icons/msg_error.png?1) no-repeat 12px 12px !important;
+}
+
+/* ссылка в историях */
+.stories_link {
+  color: #222 !important;
+}
+
+/* заметки */
+.wke_page_title_cont, .wke_controls, .wke_cont, textarea.wke_textarea  {
+  background-color: #373b3e !important;
+}
+.wke_b:hover {
+ background-color: #3e4144 !important;
+}
+.wke_controls {
+  border-bottom: 1px solid #484b4e !important;
+}
+
+/* поделиться постом */
+.ui_tabs.ui_tabs_box {
+  background-color: #6286ae !important;
+}
+.ui_tab, .ui_tabs .ui_tab {
+  color: #fff !important;
+}
+
+/* шаблоны в сообщениях группы */
+.TemplatesDropDown__container {
+  background: #373b3e !important;
+  border: 1px solid #484b4e !important;
+}
+.TemplatesSettings__content {
+  background: #373b3e !important;
+}
+.TemplatesSettings__label {
+  color: #d0cbcb !important;
+}
+.Input{
+  border: 1px solid #484b4e !important;
+}
+.TemplatesSettings__footer {
+  background: #373b3e !important;
+  border-top: 1px solid #484b4e !important;
+}
+.TemplatesSettings__item-name {
+  color: #fff !important;
+}
+
+/* музыкальный плеер */
+.audio_page_player_fixed {
+  background-color: #373b3e !important;
+}
+.audio_page_player_title_song {
+  color: #fff !important;
+}
+.artist_link {
+  color: #6a93c2 !important;
+}
+.hint_title {
+  color: #fff !important;
+}
+.audio_status_wrap {
+  color: #e0e0e0 !important;
+}
+.like_share_text {
+  background: #373b3e !important;
+}
+
+/* added end */
