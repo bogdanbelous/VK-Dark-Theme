@@ -5452,5 +5452,8 @@ border-color: #373b3e !important;
 .like_share_text {
   background: #373b3e !important;
 }
+.slider_slide, .slider_back {
+background-color: #484B4E !important; 
+}
 
 /* added end */
