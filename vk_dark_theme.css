@@ -5453,7 +5453,22 @@ border-color: #373b3e !important;
   background: #373b3e !important;
 }
 .slider_slide, .slider_back {
-background-color: #484B4E !important; 
+background-color: #484B4E !important;
+}
+.audio_pl_snippet2{
+ background-color: #373b3e !important;
+}
+.audio_pl_snippet__header {
+  border-bottom: 1px solid #484b4e !important;
+}
+.audio_pl_snippet2 .audio_shuffle_all_button:hover {
+  background-color: #494d50 !important;
+}
+.audio_shuffle_all_button {
+  color: #e0e0e0 !important;
+}
+.ap_layer__content .audio_row.audio_has_lyrics .audio_row__title_inner{
+  color: #e0e0e0 !important;
 }
 
 /* added end */
