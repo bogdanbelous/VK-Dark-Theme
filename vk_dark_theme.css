@@ -1,4 +1,4 @@
-/* version 0.1.2 */
+/* version 0.1.3 */
 
 body {
   background: #282B2F !important;
@@ -2504,7 +2504,7 @@ a.group_l_title, a.group_u_title {
 .blog_entry_title, .blog_entry_text {
   color: #FFF !important;
 }
-.blog_right_list_title {
+div.blog_right_list_title {
   color: #FFF !important;
 }
 .blog_redesign_title {
@@ -5060,7 +5060,7 @@ a.group_app_button_multi {
   background-color: #494d50 !important;
 }
 .fave_link_item_inner {
-  border-top-color: #656565 !important;
+  border-top-color: #656565;
 }
 .fave_article_item_title {
   color: #6a93c2 !important;
@@ -5151,8 +5151,6 @@ a.group_app_button_multi {
 .media_voting_option_wrap.media_voting_option_selected .media_voting_option_text:after {
   opacity: 1 !important;
 }*/
-
-/* added begin */
 
 /* шапка-поиск */
 input.text.ts_input {
@@ -5295,16 +5293,6 @@ border-color: #373b3e !important;
 }
 .apps_header {
   background-color: #373b3e !important;
-}
-
-/* обложка пустого аудио альбома */
-.audio_pl_snippet .audio_pl_snippet__cover {background: url(https://svgur.com/i/7rx.svg);
-  background-repeat: no-repeat !important;
-  background-position: 50% !important;
-  background-color: #282b2f !important;
-}
-.audio_pl_snippet .audio_pl_snippet__empty_list:before {
-  background-image: url(https://svgur.com/i/7rx.svg) !important;
 }
 
 /* информация беседы (чата) */
@@ -5453,22 +5441,98 @@ border-color: #373b3e !important;
   background: #373b3e !important;
 }
 .slider_slide, .slider_back {
-background-color: #484B4E !important;
+  background-color: #484B4E !important;
 }
 .audio_pl_snippet2{
- background-color: #373b3e !important;
+  background-color: #373b3e !important;
 }
 .audio_pl_snippet__header {
   border-bottom: 1px solid #484b4e !important;
 }
-.audio_pl_snippet2 .audio_shuffle_all_button:hover {
+.audio_shuffle_all_button:hover {
   background-color: #494d50 !important;
 }
-.audio_shuffle_all_button {
+.audio_shuffle_all_button, .ap_layer__content .audio_row.audio_has_lyrics .audio_row__title_inner {
   color: #e0e0e0 !important;
 }
-.ap_layer__content .audio_row.audio_has_lyrics .audio_row__title_inner{
-  color: #e0e0e0 !important;
+.audio_page_player2 .audio_page_player__cover {
+  background: url(https://svgur.com/i/7sk.svg);
+  background-color: #282b2f !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% !important;
+  border-radius: 4px !important;
 }
 
-/* added end */
+/* обложка пустого аудио альбома */
+.audio_pl__cover {
+  background-color: #282b2f !important;
+}
+.audio_pl_snippet2 .audio_pl_snippet__cover, .audio_pl_snippet2 .audio_pl_snippet__empty_list:before {
+  background-image: url(https://svgur.com/i/7rx.svg);
+}
+
+/* песня играющая у друга */
+.audio_friend_status .audio_friend_audios_count {
+  color: #939393 !important;
+}
+
+/* закладки ссылок */
+.fave_al_title {
+  color: #fff !important;
+}
+.fave_link_desc {
+  color: #d0cbcb !important;
+}
+
+/* разделяющая линия в закладках */
+.fave_link_item_inner, .fave_article_item {
+  border-top: 1px solid #484B4E !important;
+}
+.fave_link_item, .fave_article_item {
+ margin-top: -1px  !important;
+}
+/* лайки в vk blog */
+.like_auto_width {
+  background: #373b3e !important;
+}
+.like_counter_wrap {
+  color: #000 !important;
+}
+.tt_toup {
+  background-color: #282b2f !important;
+}
+
+/* создание сообщества */
+.groups_create_title, .groups_create_tile_title, .groups_create_box_title{
+  color: #fff !important;
+}
+.groups_create_tile_description, .groups_create_box_about, .groups_create_box_field_label{
+  color: #e0e0e0 !important
+}
+.groups_create_tile:hover {
+  background-color: #494d50 !important
+}
+
+/* статья */
+.article_layer .article_layer__dark {
+  display: none !important;
+}
+.article_layer .article_layer__close {
+  background-image: url(https://svgur.com/i/7s4.svg) !important;
+}
+.article code, .article pre {
+  background-color: #2b2b2b !important;
+}
+.article_layer__footer--fix {
+  border-color: #222 !important;
+}
+.article_layer .article_layer__back {
+  background-image: url(https://svgur.com/i/7tq.svg) !important;
+  color: #fff !important;
+}
+.article_layer .article_layer__up.article_layer__up--shown {
+  background-image: url(https://svgur.com/i/7tz.svg) !important;
+}
+.article_layer, .article, .article_layer .article_layer__footer {
+  background-color: #282b2f !important;
+}
