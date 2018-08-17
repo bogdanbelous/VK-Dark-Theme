@@ -1,4 +1,4 @@
-/* version 0.1.3 */
+/* version 0.1.4 */
 
 body {
   background: #282B2F !important;
@@ -5533,6 +5533,21 @@ border-color: #373b3e !important;
 .article_layer .article_layer__up.article_layer__up--shown {
   background-image: url(https://svgur.com/i/7tz.svg) !important;
 }
-.article_layer, .article, .article_layer .article_layer__footer {
-  background-color: #282b2f !important;
+.article {
+  color: #e0e0e0 !important;
+}
+
+/* редактирование фото альбома */
+.photos_edit_selection_header {
+ background-color: #373b3e !important;
+  border-color: #484B4E !important;
+  color: #e0e0e0 !important;
+}
+.photos_move_to_no_albums_title {
+  color: #e0e0e0 !important;
+}
+
+/* возможные друзья */
+.right_list_link {
+  color: #e0e0e0 !important;
 }
