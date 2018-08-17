@@ -1,0 +1,7 @@
+Source:
+
+https://userstyles.org/styles/127431/newvk-dark-theme
+https://vk.com/vk.darktheme
+
+Last Updated: August 8, 2018
+v.0.8.20
