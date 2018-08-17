@@ -1,5 +1,4 @@
 Source:
-
 https://userstyles.org/styles/127431/newvk-dark-theme
 https://vk.com/vk.darktheme
 
