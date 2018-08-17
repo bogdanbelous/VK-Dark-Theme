@@ -5152,7 +5152,7 @@ a.group_app_button_multi {
   opacity: 1 !important;
 }*/
 
-/* шапка-поиск */
+/* шапка - поиск */
 input.text.ts_input {
   background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat!important;
   background-position: left 8px!important;
@@ -5191,7 +5191,7 @@ border-color: #373b3e !important;
   background-color: #373b3e !important;
 }
 
-/* новый адресс группы */
+/* добавить адресс группы */
 .group_edit_address_form {
   background: #373B3E !important;
 }
@@ -5369,6 +5369,9 @@ border-color: #373b3e !important;
 .print_disabling_overlay {
   background: #fff3 !important;
 }
+.print_links {
+  color: #e0e0e0 !important;
+}
 
 /* уведомление о addblock */
 .error{
@@ -5421,7 +5424,7 @@ border-color: #373b3e !important;
   color: #fff !important;
 }
 
-/* музыкальный плеер */
+/* аудио плеер */
 .audio_page_player_fixed {
   background-color: #373b3e !important;
 }
@@ -5463,7 +5466,7 @@ border-color: #373b3e !important;
   border-radius: 4px !important;
 }
 
-/* обложка пустого аудио альбома */
+/* обложка пустого аудио плейлиста */
 .audio_pl__cover {
   background-color: #282b2f !important;
 }
@@ -5471,12 +5474,12 @@ border-color: #373b3e !important;
   background-image: url(https://svgur.com/i/7rx.svg);
 }
 
-/* песня играющая у друга */
+/* название песни играющий у друга */
 .audio_friend_status .audio_friend_audios_count {
   color: #939393 !important;
 }
 
-/* закладки ссылок */
+/* закладки - ссылки */
 .fave_al_title {
   color: #fff !important;
 }
