@@ -1,4 +1,4 @@
-/* version 0.1.4 */
+/* version 0.1.5 */
 
 body {
   background: #282B2F !important;
@@ -5154,8 +5154,8 @@ a.group_app_button_multi {
 
 /* шапка - поиск */
 input.text.ts_input {
-  background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat!important;
-  background-position: left 8px!important;
+  background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat !important;
+  background-position: left 8px !important;
   border-color: #224b7a !important;
 }
 
@@ -5465,6 +5465,24 @@ border-color: #373b3e !important;
   background-position: 50% !important;
   border-radius: 4px !important;
 }
+.audio_pl_snippet__action_btn_listen_text {
+  color: #6a93c2 !important;
+}
+.audio_pl_snippet__description {
+  color: #e0e0e0 !important;
+}
+.audio_page_player2.audio_page_player_fixed {
+  box-shadow: 0 1px 0 0 #484B4E !important;
+}
+.audio_layer_container .audio_page_player_wrap {
+  border-bottom: 1px solid #484b4e !important;
+}
+.audio_layer_container .page_block {
+  box-shadow: none !important;
+}
+.ui_search_suggester_shadow {
+  display: none !important;
+}
 
 /* обложка пустого аудио плейлиста */
 .audio_pl__cover {
@@ -5542,7 +5560,7 @@ border-color: #373b3e !important;
 
 /* редактирование фото альбома */
 .photos_edit_selection_header {
- background-color: #373b3e !important;
+  background-color: #373b3e !important;
   border-color: #484B4E !important;
   color: #e0e0e0 !important;
 }
@@ -5553,4 +5571,29 @@ border-color: #373b3e !important;
 /* возможные друзья */
 .right_list_link {
   color: #e0e0e0 !important;
+}
+
+/* cтраница временно заблокирована */
+.login_blocked_about {
+  color: #e0e0e0 !important;
+}
+.finished {
+  background: #373b3e !important;
+}
+
+/* онлайн сообщества (сообщения) */
+.im-group-online-box--top {
+  background-image: linear-gradient(180deg, #282b2f, #373b3e) !important;
+  border-bottom: 1px solid #484B4E !important;
+}
+.im-group-online-box--description {
+  border-bottom: 1px solid #484B4E !important;
+}
+.im-group-online-box--top, .im-group-online-box--description-desc,.im-group-online-box--item-desc {
+  color: #e0e0e0 !important;
+}
+
+/* спам сообщения группы */
+.im-important.im-important_empty {
+  color: #939393 !important;
 }
