@@ -1,4 +1,4 @@
-/* version 0.1.5 */
+/* version 0.1.6 */
 
 body {
   background: #282B2F !important;
@@ -5596,4 +5596,63 @@ border-color: #373b3e !important;
 /* спам сообщения группы */
 .im-important.im-important_empty {
   color: #939393 !important;
+}
+
+/* безапастность аккаунта */
+.box_msg, .settings_history_main_info {
+  color: #e0e0e0 !important;
+}
+
+/* кто оценил запись */
+.ui_tabs_box .ui_tab_count {
+  color: #C4D1DE !important;
+}
+.ui_tabs_box .ui_tab_sel .ui_tab_count {
+  color: #fff !important;
+}
+.like_cont {
+  border-bottom: 1px solid #484B4E !important;
+}
+
+/* подарки */
+.gifts_box_header {
+  background-color: #373b3e !important;
+  border-bottom: 1px solid #484B4E !important;
+}
+
+/* постер */
+#submit_post_box:not(.shown):not(.test_posting_experiment_b):not(.test_posting_experiment_c):not(.own_field) .poster__open-btn-wrapper {
+  border-left: 1px solid #484B4E !important;
+  border-right: none !important;
+}
+.poster__change-bkg-btn {
+  background-color: #5181b8 !important;
+  color: #fff !important;
+}
+.poster .poster__input-msg, .poster__placeholder {
+  color:  #808080 !important;
+}
+.poster__toolbar {
+  background: #373b3e !important;
+  border-top: 1px solid #494d50 !important;
+}
+.poster__slider-arrow {
+  background: #373b3e no-repeat !important;
+}
+.poster__slider-arrow._left {
+  box-shadow: 5px 0 5px 0px #373b3e !important;
+  background-image: url(/images/svg_icons/poster/back_poster.svg) !important;
+}
+.poster__slider-arrow._right {
+  box-shadow: -5px 0 5px 0px #373b3e !important;
+  background-image: url(/images/svg_icons/poster/next_poster.svg) !important;
+}
+.poster__slider-arrow:hover {
+  background-color: #494d50 !important;
+}
+.poster__settings-btn-wrapper {
+  border-left: 1px solid #8c9299 !important;
+}
+.poster__open-btn-wrapper {
+  border-right: 1px solid #8c9299 !important;
 }
