@@ -1,4 +1,4 @@
-/* version 0.1.6 */
+/* version 0.1.7 */
 
 body {
   background: #282B2F !important;
@@ -5610,7 +5610,7 @@ border-color: #373b3e !important;
 .ui_tabs_box .ui_tab_sel .ui_tab_count {
   color: #fff !important;
 }
-.like_cont {
+.fans_rows.wall_module .like_cont {
   border-bottom: 1px solid #484B4E !important;
 }
 
@@ -5654,5 +5654,8 @@ border-color: #373b3e !important;
   border-left: 1px solid #8c9299 !important;
 }
 .poster__open-btn-wrapper {
-  border-right: 1px solid #8c9299 !important;
+  border-right: 1px solid #484B4E !important;
+}
+.post_edit_settings_wrap:before {
+ background: #484B4E !important;
 }
