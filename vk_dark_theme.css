@@ -1,4 +1,4 @@
-/* version 0.1.7 */
+/* version 0.1.8 */
 
 body {
   background: #282B2F !important;
@@ -5658,4 +5658,43 @@ border-color: #373b3e !important;
 }
 .post_edit_settings_wrap:before {
  background: #484B4E !important;
+}
+
+/* возможные друзья */
+.ui_gallery_wall_cards .wall_card__title_link {
+  color: #fff !important;
+}
+.ui_gallery_wall_cards .wall_card__text {
+  color: #E0E0E0 !important;
+}
+
+/* новые закладки интро */
+.bookmarks_intro .bookmarks_intro_slide {
+  background-color: #373b3e !important;
+}
+.bookmarks_intro .bookmarks_intro_slide__block_title, .bookmarks_intro .bookmarks_intro_slide__block_desc {
+  color: #E0E0E0 !important;
+}
+
+/* пересланное сообщение */
+.im-replied--text {
+  color: #E0E0E0 !important;
+}
+
+/* новые статьи */
+.article_dark .article_layer__content_footer {
+  background-color: #373b3e !important;
+  border-color: #545454 !important;
+}
+
+/* новые коментарии */
+.reply_fakebox {
+  border: 1px solid #484B4E !important;
+}
+.reply_field.submit_post_field {
+  background-color: #373b3e !important;
+  border: 1px solid #484B4E !important;
+}
+.replies_wrap_deep {
+  border-top: 1px solid #484B4E !important;
 }
