@@ -1,4 +1,4 @@
-/* version 0.2.1 */
+/* version 0.2.2 */
 
 body {
   background: #282B2F !important;
@@ -5746,7 +5746,26 @@ border-color: #373b3e !important;
   background-color: #484B4E !important;
 }
 
-/* фикс описания ссылок */
+/* описания ссылок */
 .media_link__label {
   background: #484B4E !important;
+}
+
+/* описания подписки на музыку*/
+/*.audio_subscribe_promo {
+  border-top: 1px solid #484B4E !important;
+}
+.audio_subscribe_promo__title {
+  color: #fff !important;
+}
+.audio_subscribe_promo__text {
+  color: #939393 !important;
+}*/
+.audio_subscribe_promo {
+  display: none !important;
+}
+
+/* создание поста */
+.post_action_btn.on {
+  color: #828282;
 }
