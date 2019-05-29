@@ -1,4 +1,4 @@
-/* version 0.1.9 */
+/* version 0.2.0 */
 
 body {
   background: #282B2F !important;
@@ -5722,4 +5722,31 @@ border-color: #373b3e !important;
 }
 .eltt.eltt_fancy {
   border: solid 1px #484B4E !important;
+}
+
+/* журнал действий */
+.groups_edit_event_log_controls {
+  background-color: #373b3e !important;
+  border-bottom: 1px solid #484B4E !important;
+}
+.groups_edit_event_log_page .groups_edit_event_log_controls {
+  color: #fff !important;
+}
+
+/* меню сообщества */
+.groups_menu_item_title {
+  color: #fff !important;
+}
+.groups_edit_menu_item_settings {
+  background-color: #373b3e !important;
+  border-top: 1px solid #484B4E !important;
+  border-bottom: 1px solid #484B4E !important;
+}
+.groups_edit_menu_item_line {
+  background-color: #484B4E !important;
+}
+
+/* фикс описания ссылок */
+.media_link__label {
+  background: #484B4E !important;
 }
