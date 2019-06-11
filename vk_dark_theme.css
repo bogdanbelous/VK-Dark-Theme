@@ -1,4 +1,4 @@
-/* version 0.2.2 */
+/* version 0.2.3 */
 
 body {
   background: #282B2F !important;
@@ -5767,5 +5767,20 @@ border-color: #373b3e !important;
 
 /* создание поста */
 .post_action_btn.on {
-  color: #828282;
+  color: #828282 !important;
+}
+
+/* цвет ссылок */
+.thumbed_link__label {
+  background: #484B4E !important;
+}
+
+/* ответ на сообщение */
+.im-replied:before {
+  background: #484B4E !important;
+}
+
+/* фикс ссылок с фото в группах */
+.wall_module:not(.search_results) .post--with-likes:not(.post_copy):not(.post_btl):not(.post_wf):not(.post_fr_likes) .wall_text .media_link:last-child {
+  background: #484B4E !important;
 }

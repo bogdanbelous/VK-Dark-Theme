@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         VK Dark Theme
-// @version      0.2.2
+// @version      0.2.3
 // @author       bogdanbelous
 // @description  Enjoy it
 // @namespace    https://github.com/bogdanbelous/VK-Dark-Theme
