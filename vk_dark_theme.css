@@ -1,4 +1,4 @@
-/* version 0.2.3 */
+/* version 0.2.4 */
 
 body {
   background: #282B2F !important;
@@ -5783,4 +5783,41 @@ border-color: #373b3e !important;
 /* фикс ссылок с фото в группах */
 .wall_module:not(.search_results) .post--with-likes:not(.post_copy):not(.post_btl):not(.post_wf):not(.post_fr_likes) .wall_text .media_link:last-child {
   background: #484B4E !important;
+}
+
+/* страница муз альбома */
+.AudioPlaylistSnippet {
+  background: #373b3e !important;
+  box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E !important;
+}
+
+.AudioPlaylistSnippet .ActionButton--shuffle__text {
+  color: #fff !important;
+}
+
+.AudioPlaylistSnippet__body {
+   border-top: solid 1px #484B4E !important;
+}
+
+._playlist_page_content_block {
+  box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E !important;
+}
+
+/* беседы сообществ настройки */
+.ChatCreation__content {
+  background-color: #373B3E !important;
+  margin: 0 !important;
+}
+.ui_scroll_overflow {
+  background-color: #373B3E !important;
+}
+.EditableLabel__text {
+  color: #E0E0E0 !important;
+}
+.Modal__footer {
+  background-color: #373B3E !important;
+  border-top-color: #484B4E !important;
+}
+.groups_edit_chats_list__item__text__inner__content {
+  color: #E0E0E0 !important;
 }
