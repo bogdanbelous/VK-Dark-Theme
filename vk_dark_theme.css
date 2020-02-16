@@ -1,4 +1,4 @@
-/* version 0.2.4 */
+/* version 0.2.5 */
 
 body {
   background: #282B2F !important;
@@ -5820,4 +5820,9 @@ border-color: #373b3e !important;
 }
 .groups_edit_chats_list__item__text__inner__content {
   color: #E0E0E0 !important;
+}
+
+/* музыка фикс */
+.audio_page_layout .audio_search_wrapper {
+  background: #373b3e !important;
 }
