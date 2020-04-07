@@ -1,4 +1,4 @@
-/* version 0.2.7 */
+/* version 0.2.8 */
 
 body {
   background: #282B2F !important;
@@ -5825,4 +5825,21 @@ border-color: #373b3e !important;
 /* музыка фикс */
 .audio_page_layout .audio_search_wrapper {
   background: #373b3e !important;
+}
+
+/* music fix */
+.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogBlock {
+  background: #373b3e !important;
+}
+.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogBlock--divided:first-child {
+  box-shadow: 0 1px 0 0 #373b3e, 0 1px 0 1px #484B4E !important;
+}
+.CatalogBlock__separator {
+  background: #484B4E !important;
+}
+.CatalogSection__leftColumn {
+  border-right: 1px solid #484B4E !important;
+}
+.CatalogBlock--divided {
+  box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E !important;
 }
