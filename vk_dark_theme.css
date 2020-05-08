@@ -1,4 +1,4 @@
-/* version 0.2.8 */
+/* version 0.2.9 */
 
 body {
   background: #282B2F !important;
@@ -5842,4 +5842,7 @@ border-color: #373b3e !important;
 }
 .CatalogBlock--divided {
   box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E !important;
+}
+.audio_row__more_actions .audio_row__more_action {
+  background: #373B3E !important;
 }
