@@ -1,4 +1,4 @@
-/* version 0.2.9 */
+/* version 0.2.10 */
 
 body {
   background: #282B2F !important;
@@ -5828,10 +5828,10 @@ border-color: #373b3e !important;
 }
 
 /* music fix */
-.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogBlock {
+.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogSection__group_playlists, .CatalogBlock {
   background: #373b3e !important;
 }
-.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogBlock--divided:first-child {
+.CatalogSection__my, .CatalogSection__my_playlists, .CatalogSection__friends_updates, .CatalogSection__user_list, .CatalogSection__user_playlists, .CatalogSection__group_playlists, .CatalogBlock--divided:first-child {
   box-shadow: 0 1px 0 0 #373b3e, 0 1px 0 1px #484B4E !important;
 }
 .CatalogBlock__separator {
@@ -5845,4 +5845,15 @@ border-color: #373b3e !important;
 }
 .audio_row__more_actions .audio_row__more_action {
   background: #373B3E !important;
+}
+.CatalogSection__current {
+  background: none !important;
+}
+
+/* podcast */
+.audio_row__title_inner {
+  color: #fff !important;
+}
+.audio_row__performers {
+    color: #6a93c2 !important;
 }
