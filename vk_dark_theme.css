@@ -1,4 +1,4 @@
-/* version 0.2.13 */
+/* version 0.2.14 */
 
 body {
   background: #282B2F !important;
@@ -5153,7 +5153,7 @@ a.group_app_button_multi {
 }*/
 
 /* шапка - поиск */
-input.text.ts_input {
+[dir] input.text.ts_input {
   background: #224b7a url(https://vk.com/images/svg_icons/ic_head_loupe.svg) no-repeat !important;
   background-position: left 8px !important;
   border-color: #224b7a !important;
