@@ -1,4 +1,4 @@
-/* version 0.2.11 */
+/* version 0.2.12 */
 
 body {
   background: #282B2F !important;
@@ -5855,5 +5855,71 @@ border-color: #373b3e !important;
   color: #fff !important;
 }
 .audio_row__performers {
-    color: #6a93c2 !important;
+  color: #6a93c2 !important;
+}
+
+/* message input */
+[dir] input.text, [dir] input.search, [dir] input.big_text, [dir] input.dark, [dir] .fakeinput, [dir] div[contenteditable=true], [dir] textarea {
+  background: #373B3E !important;
+}
+
+/* reply box */
+[dir] .deep_active .replies .reply_box_inner_wrap.fixed {
+  background-color: #373B3E !important;
+  border-top: solid 1px #484B4E !important;
+}
+
+/* buy music */
+.PlaceholderSmall__title, .PlaceholderSmall__text {
+  color: #E0E0E0 !important;
+}
+
+/* edit message with music playlist */
+[dir] .audio_pl_attach_preview {
+  background-color: #373B3E !important;
+  border: solid 1px rgba(0,20,51,.12) !important;
+}
+.audio_pl_attach_preview__title {
+  color: #fff !important;
+}
+
+/* music for you */
+[dir] .BannerItem {
+  background-color: #484B4E !important;
+}
+.BannerItem__title {
+color: #fff !important;
+}
+
+/* top music numbering */
+.audio_row .audio_row__position {
+  color: #939393 !important;
+}
+
+/* music album details */
+[dir] .ActionsMenu__inner {
+  background: #373B3E !important;
+  border: 1px solid #484B4E !important;
+}
+.ActionsMenu__inner button {
+  color: #fff !important;
+}
+[dir] .ActionsMenu__item:hover {
+  background-color: #494D50 !important;
+}
+[dir] .AudioPlaylistSnippet .ActionButton--shuffle:hover {
+    background-color: #494d50 !important;
+}
+.AudioPlaylistSnippet .ActionButton--all__text {
+  color: #e0e0e0 !important;
+}
+
+/* create post */
+[dir] .post_actions_btns {
+  border-top: 1px solid #494d50 !important;
+}
+
+/* go to vk connect */
+[dir] .top_profile_vkconnect_row:hover {
+  background-color: #494D50 !important;
 }
