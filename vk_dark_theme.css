@@ -1,4 +1,4 @@
-/* version 0.2.15 */
+/* version 0.2.16 */
 
 body {
   background: #282B2F !important;
@@ -5943,4 +5943,15 @@ color: #fff !important;
 }
 .MusicAuthorSnippet__title, .MusicAuthorSnippet__play {
   color: #fff !important;
+}
+
+/* left menu */
+.inl_bl {
+  color: #fff !important;
+}
+
+/* header */
+.page_header_cont {
+  background: #282B2F !important;
+  border-bottom: 1px solid #373B3E !important;
 }
