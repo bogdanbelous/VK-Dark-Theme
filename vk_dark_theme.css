@@ -1,7 +1,5 @@
 /* version 0.2.16 */
-
-body {
-  background: #282B2F !important;
+body {  background: #282B2F !important;
   color: #E0E0E0 !important;
 }
 a {
@@ -1282,9 +1280,9 @@ a.wall_reply_greeting {
   box-shadow: 0 1px 3px rgba(0, 0, 0, .6) !important;
 }
 .privacy_dropdown .header {
-  border-color: #484B4E !important;
+  border-color: #191919 !important;
   color: #DCE1E6 !important;
-  background-color: #282B2F !important;
+  background-color: #292b2c !important;
 }
 .privacy_dropdown .body {
   background: #373B3E !important;
@@ -2796,25 +2794,25 @@ input.text.ts_input:focus {
   border-bottom-color: #484b4e !important;
 }
 .bottom_row a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .wall_post_text a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .im-mess-stack a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .mv_deleted_message a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .video_item_author a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .labeled_text a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .page_info_wrap a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .im-page.im-page_classic .im-page--header {
   border-top-color: #282b2f !important;
@@ -2993,7 +2991,7 @@ div#wk_history_more_link {
   background-color: #494d50 !important;
 }
 .wk_poll_extra_checkbox .idd_selected_value {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .wdd_hl {
   background-color: #6e7479 !important;
@@ -3760,7 +3758,7 @@ input.ui_search_field {
   color: #fff !important;
 }
 .blog_more_but {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .blog_entry_author_info_short, .blog_entry_author_info_short a {
   color: #afafaf !important;
@@ -4178,7 +4176,7 @@ body.is_page {
   color: #fff !important;
 }
 #vk2017_info>a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .mott_header, .promoted_post_tt .header, .verified_tt_header, .wall_tt .header {
   color: #fff !important;
@@ -4636,7 +4634,7 @@ div.ui_actions_menu_wrap._ui_menu_wrap.shown>div.ui_actions_menu._ui_menu>a {
   background-color: #494d50 !important;
 }
 ._audio_section__search .audio_row.audio_has_lyrics .audio_row__title_inner, .ap_layer__content .audio_row.audio_has_lyrics .audio_row__title_inner, .audio_page__audio_rows .audio_row.audio_has_lyrics .audio_row__title_inner, .audio_section_global_search__audios_block .audio_row.audio_has_lyrics .audio_row__title_inner {
-  color: #8ec5ff !important;
+  color: #979797 !important;
 }
 .audio_w_covers .audio_row.ui_gridsorter_moveable .audio_row_content {
   background-color: #494d50 !important;
@@ -4660,7 +4658,7 @@ div.ui_actions_menu_wrap._ui_menu_wrap.shown>div.ui_actions_menu._ui_menu>a {
   border-bottom-color: #373b3e !important;
 }
 .audio_row .audio_row__performer {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .ap_layer .audio_pl_snippet .audio_pl_snippet__header_inner {
   background-color: #494d50 !important;
@@ -4736,7 +4734,7 @@ a.group_app_button, a.group_app_button_multi {
   background-color: #4a4d50 !important;
 }
 .language_selected, .language_box_row.language_box_row_selected .language_box_row_label {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .im-page-pinned {
   border-bottom-color: #494b4e !important;
@@ -4792,7 +4790,7 @@ a.group_app_button_multi {
   color: #828282 !important;
 }
 .group_online_answer_status_title, .group_online_status_title {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .group_online_answer_status_description, .group_online_status_description {
   color: #cacaca !important;
@@ -4947,7 +4945,7 @@ a.group_app_button_multi {
   color: #E0E0E0 !important;
 }
 .article>:not(figure) a {
-  color: #8EC5FF !important;
+  color: #92a0af !important;
 }
 .article_layer {
   background-color: #373b3e !important;
@@ -5045,7 +5043,7 @@ a.group_app_button_multi {
   background-color: #373B3E !important;
 }
 .audio_page_player .audio_page_player_title_performer {
-  color: #6a93c2 !important;
+  color: #929292 !important;
 }
 .group_edit_stories_stat_header .group_edit_stories_stat_header_icons {
   background: transparent !important;
@@ -5063,13 +5061,13 @@ a.group_app_button_multi {
   border-top-color: #656565;
 }
 .fave_article_item_title {
-  color: #6a93c2 !important;
+  color: #929292 !important;
 }
 .fave_article_item_caption {
   color: #B5B5BC !important;
 }
 .audio_row .audio_row__performers a {
-  color: #6a93c2 !important;
+  color: #979797 !important;
 }
 .post_top_info_ads_group_members {
   box-shadow: 0 0 0 1px #484b4e, 0 1px 0 0 #484b4e !important;
@@ -5432,7 +5430,7 @@ border-color: #373b3e !important;
   color: #fff !important;
 }
 .artist_link {
-  color: #6a93c2 !important;
+  color: #b9b9b9 !important;
 }
 .hint_title {
   color: #fff !important;
@@ -5468,7 +5466,7 @@ border-color: #373b3e !important;
   border-radius: 4px !important;
 }
 .audio_pl_snippet__action_btn_listen_text {
-  color: #6a93c2 !important;
+  color: #979797 !important;
 }
 .audio_pl_snippet__description {
   color: #e0e0e0 !important;
@@ -5857,7 +5855,7 @@ border-color: #373b3e !important;
   color: #fff !important;
 }
 .audio_row__performers {
-  color: #6a93c2 !important;
+  color: #979797 !important;
 }
 
 /* message input */
@@ -5954,4 +5952,50 @@ color: #fff !important;
 .page_header_cont {
   background: #282B2F !important;
   border-bottom: 1px solid #373B3E !important;
+}
+
+/* Иконки навигации */
+.icon, .left_icon {
+  filter: saturate(0) brightness(1.5);
+}
+
+/* Фильтр на иконки */
+.audio_page_player_btn_enabled, 
+	.audio_page_player_btn_repeat_one,
+	.audio_page__shuffle_all_button::before,
+	.audio_shuffle_all_button::before {
+  filter: saturate(0) brightness(2.5);
+}
+
+.audio_row__play_btn {
+  filter: saturate(0) brightness(0.75);
+}
+
+/* Фикс активной кнопки профиля */
+.top_nav_link.active {
+  background-color: #232323 !important;
+}
+
+.top_audio_player:hover {
+  background-color: #232323 !important;
+}
+
+.slider .slider_amount, .slider .slider_back {
+  background-color: #eaeaea !important;
+}
+
+.ui_tab_sel {
+  border-bottom: 2px solid #fff !important;
+}
+
+.ui_rmenu_item_sel, .ui_rmenu_item_sel:hover {
+  border-left: 2px #fff !important;
+}
+
+.top_audio_player_title {
+  color: #eaeaea !important;
+}
+
+.feed_new_posts>b {
+  background-color: #656565 !important;
 }
