@@ -1,5 +1,7 @@
 /* version 0.2.16 */
-body {  background: #282B2F !important;
+
+body {
+  background: #282B2F !important;
   color: #E0E0E0 !important;
 }
 a {
@@ -5666,6 +5668,11 @@ border-color: #373b3e !important;
 }
 .ui_gallery_wall_cards .wall_card__text {
   color: #E0E0E0 !important;
+}
+
+/* Рекомендуемые паблики */
+.ui_gallery_wall_cards .wall_card {
+  background-color: #2e3133 !important;
 }
 
 /* новые закладки интро */
